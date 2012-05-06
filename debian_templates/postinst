@@ -28,7 +28,7 @@ DYNAMIC_CONF_TEMPLATE=/usr/share/packaged-site/_-_PACKAGENAME_-_/_-_PACKAGENAME_
 # hand then written to by dbconfigcommon
 DYNAMIC_CONF_TEMPLATE2=/usr/share/packaged-site/_-_PACKAGENAME_-_/dynamic.yml.template.2
 DYNAMIC_CONF_PATH=/etc/packaged-site/_-_PACKAGENAME_-_/dynamic.yml
-DYNAMIC_CONF_WWWPATH=/var/www/_-_PACKAGENAME_-_/app/_-_APPNAME_-_/config/dynamic.yml
+DYNAMIC_CONF_WWWPATH=/_-_WEBINSTALL_-_/_-_PACKAGENAME_-_/app/_-_APPNAME_-_/config/dynamic.yml
 
 __POSTINST.CONSTANTS.WEB__
 __POSTINST.CONSTANTS.DB__

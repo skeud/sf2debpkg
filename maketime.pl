@@ -109,8 +109,9 @@ my $bcconfig = {
     PACKAGENAME => 'symfony2-site-' . $globalconfig->{projectname},
     SITETYPE    => 'symfony2',
     SITENAME    => $globalconfig->{projectname},
-    WWWROOT     => '/var/www/symfony2-site-' . $globalconfig->{projectname},
-    WWWROOTNS   => 'var/www/symfony2-site-' . $globalconfig->{projectname},
+    WEBINSTALL  => $globalconfig->{webserverinstallationpath},
+    WWWROOT     => '/' . $globalconfig->{webserverinstallationpath} . '/symfony2-site-' . $globalconfig->{projectname},
+    WWWROOTNS   => $globalconfig->{webserverinstallationpath} . '/symfony2-site-' . $globalconfig->{projectname},
     FULLNAME    => $globalconfig->{maintainername},
     EMAIL       => $globalconfig->{maintaineremail},
 };
